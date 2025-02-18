@@ -1,6 +1,6 @@
-const username = 'YOUR_GITHUB_USERNAME';
+const username = 'Bekimoon0043';
 const repo = 'video-website';
-const pat = 'YOUR_PERSONAL_ACCESS_TOKEN';
+const pat = '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';
 
 async function uploadVideo() {
     const title = document.getElementById('title').value;
