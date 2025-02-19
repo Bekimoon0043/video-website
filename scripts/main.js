@@ -1,6 +1,6 @@
 async function loadVideos() {
     try {
-        const response = await fetch('https://cdn.jsdelivr.net/gh/your-username/video-website/videos.json');
+        const response = await fetch('https://cdn.jsdelivr.net/gh/Bekimoon0043/video-website/videos.json');
         const videos = await response.json();
         const container = document.getElementById('videoContainer');
         
